@@ -10,20 +10,22 @@ Predicting car prices based on various features such as model, year, mileage, en
 ## ⚙️ Model Approach  
 ### **🔹 Preprocessing**  
 - Converted categorical features into numerical using **label encoding**.
-- Dealt with outliers  
-- Removed low-importance features (`car_age`, `type`) when I was doing hyperparameter tuning.  
+- Applied log transformation to the price column to normalize skewed values.
+- Handled outliers by removing extreme values.  
+- Feature selection: Removed low-importance features (car_age, type) during hyperparameter tuning.  
 - Split the dataset into training and validation sets.  
 
+### **🔹 Training & Evaluation**
 ### **🔹 Models Used**  
 - **XGBoost Regressor** (Primary Model)  
 - Linear Regression  
 - Random Forest Regressor  
 
-### **🔹 Training**  
-- Used 500 boosting rounds with early stopping after 50 rounds.  
-- Evaluated the model using **R² Score** and **Mean Absolute Error (MAE)**.  
+### **🔹 Evaluation Metrics**  
+- R² Score: Measures how well the model explains variance in car prices
+- Mean Absolute Error (MAE): Evaluates prediction accuracy  
 
-## 🎯 Model Performance  
+## 🎯 Final Model Performance  
 - **Validation R² Score:** `0.7740`  
 - **MAE:** (Lower is better)  
 
