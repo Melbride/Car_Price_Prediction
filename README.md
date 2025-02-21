@@ -11,7 +11,7 @@ Predicting car prices based on various features such as model, year, mileage, en
 ### **🔹 Preprocessing**  
 - Converted categorical features into numerical using **label encoding**.
 - Dealt with outliers  
-- Removed low-importance features (`car_age`, `type`).  
+- Removed low-importance features (`car_age`, `type`) when I was doing hyperparameter tuning.  
 - Split the dataset into training and validation sets.  
 
 ### **🔹 Models Used**  
@@ -24,7 +24,7 @@ Predicting car prices based on various features such as model, year, mileage, en
 - Evaluated the model using **R² Score** and **Mean Absolute Error (MAE)**.  
 
 ## 🎯 Model Performance  
-- **Validation R² Score:** `0.774`  
+- **Validation R² Score:** `0.7740`  
 - **MAE:** (Lower is better)  
 
 ## 📂 Project Files  
