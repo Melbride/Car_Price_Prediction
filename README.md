@@ -48,6 +48,6 @@ Predicting car prices based on various features such as model, year, mileage, mo
 3. Run the Jupyter Notebook::  
    ```bash
    jupyter notebook
-4. Open car_price_prediction.ipynb and execute the cells.  
+4. Open Car Price Prediction.ipynb and execute the cells.  
    
 
