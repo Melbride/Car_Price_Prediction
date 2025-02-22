@@ -1,7 +1,7 @@
 # 🚗 Car Price Prediction Model  
 
 ## 📌 Overview  
-Predicting car prices based on various features such as model, year, mileage, engine size, and more. The goal is to build a machine learning model that accurately estimates car prices based on vehicle characteristics.
+Predicting car prices based on various features such as model, year, mileage, motor_type, and more. The goal is to build a machine learning model that accurately estimates car prices based on vehicle characteristics.
 
 ## 📊 Dataset  
 - The dataset contains features such as `model`, `year`, `running`, `color`, `type`, `status`, `motor_volume`, `car_age`, and `power_per_liter`.  
@@ -31,7 +31,7 @@ Predicting car prices based on various features such as model, year, mileage, en
 
 ## 📂 Project Files  
 - 🏆 `car_price_model.pkl` - Trained Model  
-- 📜 `car_price_prediction.ipynb` - Code & Model Training  
+- 📜 `Car Price Prediction.ipynb` - Code & Model Training  
 - 📊 `train.csv` & `test.csv` - Dataset  
 
 ## 🚀 Future Improvements  
