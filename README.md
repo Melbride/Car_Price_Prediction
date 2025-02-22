@@ -42,3 +42,12 @@ Predicting car prices based on various features such as model, year, mileage, mo
 1. Clone this repository:  
    ```bash
    git clone https://github.com/your-username/your-repository.git
+2. Navigate to the project folder:
+   ```bash
+   cd your-repository
+3. Run the Jupyter Notebook::  
+   ```bash
+   jupyter notebook
+4. Open car_price_prediction.ipynb and execute the cells.  
+   
+
